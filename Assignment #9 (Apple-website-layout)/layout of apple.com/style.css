@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* .header{
+    backdrop-filter: blur(2rem);
+} */
+
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color: #333333;
+    align-items: center;
+    /* position: fixed;
+    backdrop-filter: blur(0rem); */
+
+    padding: 8px 0px;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+    
+}
+
+
+
+nav ul li{
+
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.navbar a{
+    color: #989898;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;   
+}
+
+/* .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+ 
+} */
+
+
+/* //// shopOnline Container */
+.shopOnline{
+    width: 100%;
+    
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+   
+    color: #5A5A5C;
+    
+    padding: 12px 20px;
+    font-size: 16px;
+
+    
+    text-align: center;
+
+}
+
+
+
+.shopOnline a{
+    color: #4790D8;
+}
+
+
+
+
+.container-13pro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: url("Images/hero_iphone_13pro__dhnsegysa42u_small.jpg") ;
+    background-color: #FBFBFD;
+    background-repeat: no-repeat;
+ 
+    background-size: auto;
+    background-position: center;
+
+}
+
+
+
+
+
+/* ///Watch */
+.container-watch {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Images/hero_watch__f05go333pz2i_medium.jpg") ;
+    background-color: #F5F5F7;
+    background-repeat: no-repeat;
+   
+    background-size: auto;
+    background-position: center;
+
+}
+
+
+/* ////Tv Series */
+.container-tvseries {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: block;
+
+    background-image: url("Images/hero_ttom__d8cc7msuzey6_small.jpg") ;
+    background-color: #101010;
+    background-repeat: no-repeat;
+  
+    background-size: auto;
+    background-position: center;
+
+}
+
+
+
+
+
+/* Content of Poster */
+.content, .content-2{
+    text-align: center;
+    padding-top: 25px;
+    
+    padding-bottom: 400px;
+   
+}
+
+
+
+.content h1{
+font-size: 60px;
+color: #1D1D1F;
+font-weight: 600;
+}
+.content h2{
+color: #464648;
+font-size: 40px;
+font-weight: 400;
+}
+
+.content span{
+    color: #0071E3;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content i{
+    font-size: 20px;
+}
+
+
+.content-2{
+    color: #F1F1F1;
+}
+
+.content-2 h1{
+   margin-top: 100px;
+   font-size: 30px;
+}
+
+/* ////Tiles container */
+.row-2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+
+}
+
+/* Tile -1 */
+
+.pic1{
+   
+    width: 500px;
+    height: 500px;
+
+    margin: 10px 0;
+    background-image: url("Images/promo_vday22__oz9b5x4x7ney_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+   
+    padding-top: 30px;
+}
+.pic1 h1{
+    color: #602D62;
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+}
+.pic1 h3{
+  
+    color: #602D62;
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.pic1 span{
+    color: #0071E3;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.pic1 i{
+    font-size: 20px;
+}
+
+
+
+
+
+/* Tile 2 */
+.pic2{
+    
+    width: 500px;
+    height: 500px;
+    
+    background-image: url("Images/tile_iphone_13__d9w82q7fwceq_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+   
+    padding: 190px 0px;
+}
+.pic2 h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.pic2 h2{
+    color: #F1F1F1;
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.pic2 span{
+    color: #0071E3;
+    font-size: 20px;
+    cursor: pointer;
+}
+.pic2 i{
+    font-size: 20px;
+}
+
+
+/* Tile 3 */
+
+.pic3{
+    /* border: 1px solid lime; */
+    width: 500px;
+    height: 500px;
+    
+    background-image: url("Images/tile_soip__f0c6lef982em_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding:0 10px ;
+    padding-top: 30px;
+}
+.pic3 h1{
+    color: #1D1D1F;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.pic3 h2{
+    color: #1D1D1F;
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.pic3 span{
+    color: #1D1D1F;
+    font-size: 20px;
+    cursor: pointer;
+}
+.pic3 i{
+    font-size: 20px;
+}
+
+
+/* Tile 4 */
+
+.pic4{
+   
+    width: 500px;
+    height: 500px;
+
+    margin: 10px 0;
+    background-image: url("Images/promo_watch_heart__dlf8uc5h0kae_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+   
+    padding-top: 10px;
+}
+.pic4 h1{
+    color: #1D1D1F;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+}
+.pic4 h3{
+  
+    color: #1D1D1F;
+    font-size: 20px;
+    margin: 8px 0;
+    font-weight: 400;
+}
+.pic4 span{
+    color: #0071E3;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.pic4 i{
+    font-size: 20px;
+}
+
+
+/* tile 5 */
+
+.pic5{
+   
+    width: 500px;
+    height: 500px;
+
+    margin: 10px 0;
+    background-image: url("Images/promo_watch__fo7j0tnywi2q_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.pic5 h1{
+    color: #F1F1F1;
+    font-size: 38px;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+}
+.pic5 h3{
+  
+    color: #F1F1F1;
+    font-size: 22px;
+    margin: 8px 0;
+    font-weight: 400;
+}
+.pic5 span{
+    color: #0071E3;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.pic5 i{
+    font-size: 20px;
+}
+
+
+
+
+.pic6{
+   
+    width: 500px;
+    height: 500px;
+
+    margin: 10px 0;
+    background-image: url("Images/tile__cauwwcyyn9hy_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.pic6 h3{
+  
+    color: #1D1D1F;
+    font-size: 25px;
+    margin: 8px 0;
+    font-weight: 400;
+}
+.pic6 span{
+    color: #0071E3;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.pic6 i{
+    font-size: 20px;
+}
+
+
+
+
+
+/* footer */
+
+.footer{
+    padding: 17px 0px 11px;
+    background: #F5F5F7;
+    color: #6E7283;
+    font-size: 12px;
+    
+}
+
+.footer li{
+    list-style: none;
+}
+.con-1 ,.con-2, .con-3{
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 0.5cm;
+}
+
+
+.con-1 li{
+    margin-bottom: 8px;
+}
+
+.con-1 hr{
+    margin-bottom: 10px;
+}
+.con-2 span{
+    color: #1A75D1;
+}
+.con-2 ul{
+    display: inline-block;
+    margin-right: 4%;
+    padding-right: 20px;
+}
+ul .li-style{
+    font-weight: 700;
+
+}
+.con-2 .p1{
+    margin-top: 40px;
+}
+
+.con-3 span, .con-3 ul, .con-3 li{
+    display: inline-block;
+    
+}
+
+.con-3 li{
+    margin-right: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-left: #767678 1px solid;
+}
+
+.con-2 li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.con-3 li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
