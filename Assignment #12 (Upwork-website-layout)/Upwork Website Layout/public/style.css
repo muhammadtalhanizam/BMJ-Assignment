@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #65735b;
+}
+
+a:hover{
+    color: #14a800;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+button{
+    border: none;
+    background-color: #14a800;
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    padding: 12px 10px;
+    margin: 8px;
+    font-size: 15px;
+}
+/* 
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    align-items: center;
+} */
+
+.header-1{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    /* margin: 0 50px; */
+}
+
+
+.header-1, .header-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+
+
+
+.header-1 ul, .header-2 ul{
+    display: flex;
+    margin: 12px 10px;
+    /* justify-content: space-; */
+}
+
+.header-1 img{
+    display: flex;
+    align-items: center;
+   
+}
+
+.navlinks-1{
+    display: flex;
+    align-items: center;
+}
+
+.navlinks-1 ul li{
+
+    margin: 0 10px;
+}
+
+.navlinks-2 ul li{
+    margin: 10px 14px;
+}
+
+
+
+/* .headerbtn{
+    display: flex;
+} */
+
+.headerbtn input{
+    
+    border-radius: 18px;
+    width: 170px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+
+.banner-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content-b1{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.content-b1 h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: #14a800;
+
+}
+
+.content-b1 p{
+    font-size: 20px;
+    
+    color: #65735b;
+}
+
+.com-logos{
+    margin-top: 55px;
+}
+
+.img-logos img{
+    max-width: 100px;
+}
+
+.img-logos{
+    display: flex;
+    justify-content: space-around;
+    
+    /* align-items: center; */
+    
+}
+
+
+.img-b1 img{
+    width: 100%;
+}
+
+.img-b1{
+    width: 40%;
+}
+
+
+/* Middle Banner  */
+
+
+.banner-2{
+    width: 100%;
+    background-image: url("./images/find-talent.06d34b1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 30px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.banner-2 .para-b2{
+    color: white;
+    font-size: 22px;
+    margin: 0 0 100px;
+}
+
+.content-b2 h1{
+    color: white;
+    font-size: 58px;
+    margin: 0 0 30px;
+}
+
+.content-b2 p{
+    width: 50%;
+    color: white;
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.cards-b2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-b2 div{
+    flex-basis: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #14a800;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 15px 0;
+}
+
+.cards-b2 div h2{
+    font-size: 28px;
+    font-weight: 550;
+
+}
+
+.cards-b2 div p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+/* Banner 3 */
+
+.banner-3{
+    width: 100%;
+    padding: 10px 30px;
+    /* margin: 40px 20px; */
+    /* border-radius: 10px; */
+    display: flex;
+}
+
+.leftside-b3{
+    
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #F2F7F2;
+    border-radius: 12px 0 0 12px;
+    padding: 0 10px;
+}
+
+.leftside-b3 h1{
+    width: 75%;
+    font-size: 52px;
+    font-weight: 520;
+    margin: 0px 0px 30px;
+    /* padding: 0 18px 0 0; */
+}
+
+.leftside-b3 h2{
+    width: 50%;
+    font-size: 34px;
+    font-weight: 450;
+    margin: 0 0 10px;
+}
+
+.leftside-b3 p{
+    width: 50%;
+    font-size: 16px;
+    color: #65735b;
+    margin: 0 0 30px;
+}
+
+.img-b3 {
+    /* margin: 0 auto; */
+    position: absolute;
+    right: 28%;
+}
+
+.img-b3 img{
+    width: 100%;
+
+}
+
+
+
+.rightside-b3{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #14a800;
+    color: white;
+    padding: 0 10px;
+    border-radius: 0 12px 12px 0;
+}
+
+.rightside-b3 h2{
+    font-size: 34px;
+    font-weight: 450;
+    margin: 0 0 10px;
+}
+
+.rightside-b3 p{
+    font-size: 16px;
+    
+    margin: 0 0 30px;
+}
+
+/* Banner 4 */
+
+.banner-4{
+    width: 100%;
+    display: flex;
+    padding: 10px 30px;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.leftside-b4, .rightside-b4{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    margin: 0 40px;
+
+}
+
+
+
+.leftside-b4 h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px 0 20px;
+}
+
+.leftside-b4 ul{
+    font-size: 28px;
+    font-weight: 400;
+    color: #65735b;
+}
+
+
+.colorli-b4{
+    color: #14a800;
+}
+
+.colorli-b4:hover{
+    color: #3C8223;
+}
+
+.rightside-col-b4{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.rightside-col1-b4, .rightside-col2-b4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+}
+
+.img-b4 img{
+    width: 100%;
+
+    border-radius: 16px;
+    margin-bottom: 20px ;
+}
+
+.rightside-col1-b4 ul li, .rightside-col2-b4 ul li{
+    border: 1px solid #65735b;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0 ;
+}
+
+/* //// Banner-5 /// */
+
+.banner-5{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+
+.leftside-b5{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+} 
+
+
+ .rightside-b5{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #2E58C3;
+    padding: 10px;
+    border-radius: 0 16px 16px 0;
+    align-items: center;
+   
+    /* flex-direction: column; */
+}
+
+.leftside-b5 img{
+    width: 100%;
+    display: flex; 
+    border-radius: 16px 0 0 16px;
+    
+} 
+
+.contentbottom-b5 ul{
+    
+    display: flex;
+    margin-top: 100px;
+    border-top:2px solid #F2F7F2;
+  
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.contentbottom-b5 ul li{
+    margin: 5px 15px;
+}
+
+.contenttop-b5 h1{
+    font-size: 50px;
+    font-weight: 550;
+    margin: 10px;
+
+}
+
+.contenttop-b5 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+
+
+.btn-b5 button{
+    background-color: white;
+    color: #2E58C3;
+    width: 192px;
+}
