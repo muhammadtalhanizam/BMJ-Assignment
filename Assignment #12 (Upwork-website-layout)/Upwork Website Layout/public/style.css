@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
@@ -133,7 +134,7 @@ header{
 }
 
 .img-logos img{
-    max-width: 100px;
+    width: 20%;
 }
 
 .img-logos{
@@ -156,9 +157,12 @@ header{
 
 /* Middle Banner  */
 
-
 .banner-2{
     width: 100%;
+
+}
+.banner-2 .bg-image{
+    width: 95%;
     background-image: url("./images/find-talent.06d34b1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -403,6 +407,7 @@ header{
 
 .leftside-b5 img{
     width: 100%;
+    height: 100vh;
     display: flex; 
     border-radius: 16px 0 0 16px;
     
@@ -443,3 +448,245 @@ header{
     color: #2E58C3;
     width: 192px;
 }
+
+
+/* Testimonial */
+
+.testimonial{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.col-t{
+    margin-top: 50px;
+    width: 88%;
+    /* min-width: 970px; */
+   
+    border-radius: 8px;
+    padding: 50px 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: #000000;
+    justify-content: flex-end;
+}
+.personbox1 h1{
+    position: absolute;
+    font-size: 52px;
+    top: 5%;
+    left: 3%;
+}
+.col-t h2{
+    color: #14a800;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 20px 0px;
+    
+}
+.col-t h3{
+color: #001e00;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    margin: 20px 0px 5px;
+}
+.col-t p{
+    color: #65735b;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+.person{
+    width: 35%;
+    margin: 0px 55px 0px 0px;
+}
+
+.person .col-t-img img{
+    width: 90%;
+    border-radius: 15px;
+}
+.personbox1{
+    align-self: flex-end;
+    margin-top: 20%;
+}
+.personbox2{
+    align-self: flex-start;
+}
+
+
+/* Banner-6 */
+.banner-6{
+    margin-top: 50px;
+    width: 100%;
+    /* min-width: 970px; */
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    padding: 50px 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    color: #000000;
+    justify-content: space-between;
+}
+.leftside-b6,.middle-b6,.rightside-b6{
+    display: flex;
+    width: 30%;
+}
+.banner-6 ul li:hover{
+    color: #3C8224;
+    cursor: pointer;
+}
+
+.leftside-b6 ul li{
+    font-size: 40px;
+    line-height: 40px;
+    color: #dfe0ef;
+    margin: 10px 0px;
+}
+.leftside-b6 sup{
+    font-size: 16px;
+}
+.middle-b6 ul li,.rightside-b6 ul li{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #65735b;
+    margin: 10px 0px;
+}
+
+
+ /* Footer  */
+ footer{
+     width: 100%;
+    background:#001E00;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.footer-links{
+    margin-top: 50px;
+    width: 88%;
+
+    padding: 50px 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    justify-content: space-between;
+}
+.footer-links ul li{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px 0px 10px;
+  
+}
+
+.footer-links ul li:hover{
+    text-decoration: underline;
+}
+footer ul .list-heading{
+    font-weight: bold;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 88%;
+    border-top: 1px solid #65735B;
+    border-bottom: 1px solid #65735B;
+    padding: 50px 30px;
+   
+    justify-content: space-between;
+}
+.social-links ul, .footer-end ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.social-links ul li{
+    color: #ffffff;
+    padding: 10px;
+}
+.social-links ul li i{
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+
+.footer-end{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 88%;
+    
+    padding: 50px 30px;
+    
+    justify-content: space-between;
+}
+.footer-end ul{
+    display: flex;
+    width: 100%;
+}
+.footer-end ul li{
+    color: #ffffff;
+    padding: 10px;
+
+}
+.footer-end ul li span{
+    border-right:  1px solid #65735B;
+    padding-right: 20px;
+}
+
+
+@media only screen and (max-width:980px) {
+    .headerbtn input{
+        display: none;
+    }
+
+    .banner-1 h1, .banner-2 h1, .banner-3 h1, .banner-4 h1, .banner-5 h1, .banner-6 h1, .testimonial h1{
+        font-size: 42px;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width:760px) {
+    
+    .banner-2 h2, .banner-3 h2{
+        font-size: 28px;
+
+    }
+
+    .banner-1, .banner-2{
+        width: 100%;
+        min-height: 730px;
+    }
+    .cards-b2 div{
+       
+        /* height: 161px; */
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    .cards-b2 h2{
+        font-size: 24px;
+    }
+    .cards-b2 p{
+    font-size: 16px;
+ 
+    }
+}
+
