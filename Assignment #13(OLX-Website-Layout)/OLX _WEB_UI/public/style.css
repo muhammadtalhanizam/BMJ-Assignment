@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+input{
+    border: none !important;
+}
+
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+header {
+    background: #F7F8F8 !important;
+    padding: 10px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.mainlogos a{
+    font-size: 15px;
+    padding: 10px;
+    color:#222222;
+    font-weight: bold;
+}
+
+.mainlogos i{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.location_search button ,
+.search-items{
+    width: 100%;
+    border: 1px solid #222222;
+    background: #ffffff;
+    /* height: 50px; */
+    border-radius: 5px !important;
+}
+
+.searchbtn span{
+    height: 50px;
+}
+
+.my-dropdown {
+        width: 280px !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+    height: 320px !important;
+}
+
+.sell-button,.login-button{
+    border: none;
+    background: transparent;
+    position: relative;
+}
+.login{
+   
+   
+    align-items: center;
+}
+.login-button p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    /* text-decoration: underline; */
+    margin: 0px;
+}
+
+.login-button p:hover{
+    text-decoration: underline;
+}
+
+.sell-button span{
+    position: absolute;
+    top: 12px;
+    left: 22px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+.sell p{
+   
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.row.show {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 90% !important;
+    margin: 0px 20px 0px 50px !important;
+    height: 350px !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* .location_search{
+    display: flex;
+    width: 25%;
+} */
+
+.login-sell{
+    display: flex;
+}
+
+.navbar a{
+    font-size: 16px !important;
+}
+.nav-ul-heading a{
+    font-weight: bold !important;
+}
+.top-Banner img{
+    width: 100%;
+}
+h1{
+    font-size: 25px !important;
+}
+.myCards .start-selling{
+    background-color: blue !important;
+    color: white !important;
+    text-align: center;
+}
+.myCards button{
+    background: transparent !important;
+    border: 2px solid white !important;
+    color: white !important;
+    padding: 10px !important;
+    margin-top: 30px;
+}
+.cardBox > div > div{
+    height: 450px !important;
+}
+
+/* //////////////////////////////// */
+.adds div{
+    border: 1px solid #dfe1e5;;
+}
+.adds img{
+    width: 100% !important;
+}
+.bottom-banner{
+    background: #F7F8F8 !important;
+    align-items: center;
+}
+.MyBanner2{
+    height: 200px;
+}
+.MyBanner2 img{
+    width: 100%;
+    height: 100%;
+
+}
+.myfooter{
+    background-color: #ebeeef !important;
+}
+.myfooter > div{
+    flex-wrap: wrap !important;
+
+}
+.myfooter ul{
+    list-style: none;
+}
+
+.copyright{
+    background: #002f34 !important;
+    color: white !important;
+    text-align: right;
+}
+
+/*  media query*/
+
+@media only screen and (max-width: 1115px){
+.olxapp-contant{
+    display: none ;
+}    
+.bottom-banner{
+    justify-content: space-between;
+}
+}
+@media only screen and (max-width: 780px){
+.olx-download div{
+    flex-wrap: wrap;
+}
+.MyBanner2{
+    height: 180px;
+}
+}
+
+@media only screen and (max-width: 576px){
+.login-sell{
+    display: none !important;
+}
+.location_search{
+    width: 75%;
+}
+}

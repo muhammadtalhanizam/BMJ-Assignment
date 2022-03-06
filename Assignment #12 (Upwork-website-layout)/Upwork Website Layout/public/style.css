@@ -596,8 +596,9 @@ footer ul .list-heading{
 }
 
 .social-links{
+
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     width: 88%;
     border-top: 1px solid #65735B;
@@ -607,6 +608,7 @@ footer ul .list-heading{
     justify-content: space-between;
 }
 .social-links ul, .footer-end ul{
+    width: 100%;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -634,10 +636,10 @@ footer ul .list-heading{
     
     justify-content: space-between;
 }
-.footer-end ul{
+/* .footer-end ul{
     display: flex;
     width: 100%;
-}
+} */
 .footer-end ul li{
     color: #ffffff;
     padding: 10px;
